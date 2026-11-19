@@ -1,0 +1,1051 @@
+{
+ "tts": "tts/v2_jenny",
+ "card_gain": 4.0,
+ "master_gain": -1.5,
+ "items": [
+  {
+   "type": "clip",
+   "note": "片1 寒暄",
+   "src": "ai/A_fix.mp4",
+   "range": [
+    0,
+    13.05
+   ],
+   "room": [
+    6.3,
+    7.1
+   ],
+   "en": [
+    {
+     "wav": "q1_scene.wav",
+     "at": 4.7,
+     "text": "How are you doing?",
+     "pos": [
+      50,
+      36
+     ],
+     "gain": 9,
+     "linger": 0.9
+    }
+   ],
+   "subs": [
+    {
+     "t": [
+      1.85,
+      3.35
+     ],
+     "text": "客官，里边请！"
+    },
+    {
+     "t": [
+      8.3,
+      9.3
+     ],
+     "text": "客官慢用！"
+    },
+    {
+     "t": [
+      9.75,
+      12.95
+     ],
+     "text": "人家没点菜，是问你近来可好！"
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片2 讲寒暄·上",
+   "src": "ai/B.mp4",
+   "range": [
+    0,
+    5.9
+   ],
+   "subs": [
+    {
+     "t": [
+      0.2,
+      5.3
+     ],
+     "text": "呐，这句话呢，问的是你现在过得怎么样。"
+    }
+   ],
+   "panel": {
+    "t": [
+     2.5,
+     5.9
+    ],
+    "box": [
+     700,
+     50,
+     1250,
+     470
+    ],
+    "lines": [
+     {
+      "text": "How are you doing?",
+      "size": 50,
+      "color": "white",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "text": "最近怎么样？",
+      "size": 38,
+      "color": "soft",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "rule": true
+     },
+     {
+      "text": "[are] + [doing]  =  [现在]",
+      "size": 46,
+      "color": "white",
+      "gap": 22,
+      "bold": true
+     }
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "note": "问句：近来可好",
+   "bg": {
+    "src": "ai/B.mp4",
+    "at": 5.6
+   },
+   "title": "见面问一句",
+   "foot": "三句一个意思，回答一样",
+   "rows": [
+    {
+     "en": "How are you doing?",
+     "zh": "最近怎么样？",
+     "wav": "q1.wav",
+     "times": 2
+    },
+    {
+     "en": "How are you?",
+     "zh": "你好吗？",
+     "wav": "q1b.wav",
+     "times": 1
+    },
+    {
+     "en": "How's it going?",
+     "zh": "最近咋样？",
+     "wav": "q1c.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片2 讲寒暄·下",
+   "src": "ai/B3.mp4",
+   "range": [
+    1.45,
+    6.6
+   ],
+   "subs": [
+    {
+     "t": [
+      1.85,
+      5.8
+     ],
+     "text": "答的时候呢，说一句现在的样子就得啦。"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "note": "回答·一",
+   "bg": {
+    "src": "ai/B3.mp4",
+    "at": 6.3
+   },
+   "title": "这样答",
+   "rows": [
+    {
+     "en": "Pretty good.",
+     "zh": "挺好的。",
+     "wav": "a_pretty.wav",
+     "times": 1
+    },
+    {
+     "en": "Not bad.",
+     "zh": "还行。",
+     "wav": "a_notbad.wav",
+     "times": 1
+    },
+    {
+     "en": "And you?",
+     "zh": "你呢？",
+     "wav": "a_andyou.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "note": "回答·二",
+   "bg": {
+    "src": "ai/B3.mp4",
+    "at": 6.3
+   },
+   "title": "也可以说现在的样子",
+   "foot": "I'm = I am，不能说 I busy",
+   "rows": [
+    {
+     "en": "[I'm] busy.",
+     "zh": "我挺忙。",
+     "wav": "a_busy.wav",
+     "times": 1
+    },
+    {
+     "en": "[I'm] tired.",
+     "zh": "我累了。",
+     "wav": "a_tired.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片3 平时",
+   "src": "ai/C_fix.mp4",
+   "range": [
+    0,
+    13.55
+   ],
+   "room": [
+    1.7,
+    2.3
+   ],
+   "en": [
+    {
+     "wav": "q2_scene.wav",
+     "at": 0.6,
+     "text": "What do you do?",
+     "pos": [
+      50,
+      36
+     ],
+     "gain": 9,
+     "linger": 0.9
+    }
+   ],
+   "subs": [
+    {
+     "t": [
+      3.4,
+      4.95
+     ],
+     "text": "我在擦桌子呀！"
+    },
+    {
+     "t": [
+      5.95,
+      7.3
+     ],
+     "text": "人家问你是做什么的！"
+    },
+    {
+     "t": [
+      8.65,
+      12.95
+     ],
+     "text": "呐，天天都做的事呢，动词原样说就得啦。"
+    }
+   ],
+   "panel": {
+    "t": [
+     9.3,
+     13.55
+    ],
+    "box": [
+     700,
+     50,
+     1250,
+     470
+    ],
+    "lines": [
+     {
+      "text": "What do you do?",
+      "size": 50,
+      "color": "white",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "text": "你是做什么的？",
+      "size": 38,
+      "color": "soft",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "rule": true
+     },
+     {
+      "text": "平时、天天：动词[原样]",
+      "size": 42,
+      "color": "white",
+      "gap": 22,
+      "bold": true
+     }
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "note": "平时",
+   "bg": {
+    "src": "ai/C_fix.mp4",
+    "at": 13.3
+   },
+   "title": "平时 · 天天都做的事",
+   "foot": "动词原样说",
+   "rows": [
+    {
+     "en": "What do you do?",
+     "zh": "你是做什么的？",
+     "wav": "q2.wav",
+     "times": 2
+    },
+    {
+     "en": "I [sell] bearings.",
+     "zh": "我卖轴承。",
+     "wav": "a_sell.wav",
+     "times": 1
+    },
+    {
+     "en": "I [work] in a factory.",
+     "zh": "我在工厂上班。",
+     "wav": "a_factory.wav",
+     "times": 1
+    },
+    {
+     "en": "I [work] in sales.",
+     "zh": "我做销售。",
+     "wav": "a_sales.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片4 现在正在",
+   "src": "ai/D_fix.mp4",
+   "range": [
+    0,
+    8.5
+   ],
+   "room": [
+    2.2,
+    2.9
+   ],
+   "en": [
+    {
+     "wav": "q3_scene.wav",
+     "at": 0.7,
+     "text": "What are you doing?",
+     "pos": [
+      380,
+      36
+     ],
+     "gain": 9,
+     "linger": 0.9
+    }
+   ],
+   "subs": [
+    {
+     "t": [
+      4.3,
+      5.45
+     ],
+     "text": "我今早劈了柴！"
+    },
+    {
+     "t": [
+      6.3,
+      8.35
+     ],
+     "text": "人家问你现在在干嘛！"
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片8 补讲·上",
+   "src": "ai/G_fix.mp4",
+   "range": [
+    0,
+    6.6
+   ],
+   "subs": [
+    {
+     "t": [
+      0.2,
+      6.05
+     ],
+     "text": "呐，说现在正在做的事呢，动词后面要拖一条尾巴。"
+    }
+   ],
+   "panel": {
+    "t": [
+     3.3,
+     6.6
+    ],
+    "box": [
+     700,
+     50,
+     1250,
+     470
+    ],
+    "lines": [
+     {
+      "text": "play → play[ing]",
+      "size": 54,
+      "color": "white",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "text": "work → work[ing]",
+      "size": 54,
+      "color": "white",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "rule": true
+     },
+     {
+      "text": "现在正在：[am / are] + 动词[ing]",
+      "size": 36,
+      "color": "white",
+      "gap": 22,
+      "bold": true
+     }
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "note": "现在正在",
+   "bg": {
+    "src": "ai/G_fix.mp4",
+    "at": 6.3
+   },
+   "title": "现在正在 · am / are + 动词 ing",
+   "rows": [
+    {
+     "en": "What [are] you do[ing]?",
+     "zh": "你在干嘛？",
+     "wav": "q3.wav",
+     "times": 2
+    },
+    {
+     "en": "I'm work[ing].",
+     "zh": "我在上班。",
+     "wav": "a_working.wav",
+     "times": 1
+    },
+    {
+     "en": "I'm hav[ing] lunch.",
+     "zh": "我在吃午饭。",
+     "wav": "a_lunch.wav",
+     "times": 1
+    },
+    {
+     "en": "I'm play[ing] games.",
+     "zh": "我在打游戏。",
+     "wav": "a_games.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片5 过去·戏",
+   "src": "ai/E.mp4",
+   "range": [
+    0,
+    5.9
+   ],
+   "room": [
+    2.2,
+    2.9
+   ],
+   "en": [
+    {
+     "wav": "q4_scene.wav",
+     "at": 0.5,
+     "text": "What did you do today?",
+     "pos": [
+      330,
+      36
+     ],
+     "gain": 9,
+     "linger": 0.9
+    }
+   ],
+   "subs": [
+    {
+     "t": [
+      3.85,
+      5.5
+     ],
+     "text": "我在吃包子！"
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片5 过去·点破讲解",
+   "src": "ai/E2.mp4",
+   "range": [
+    0.1,
+    10.6
+   ],
+   "subs": [
+    {
+     "t": [
+      0.4,
+      3.6
+     ],
+     "text": "哎哟，这回问的是过去！"
+    },
+    {
+     "t": [
+      4.85,
+      9.95
+     ],
+     "text": "说过去的事呢，动词就要变个样子。"
+    }
+   ],
+   "panel": {
+    "t": [
+     6.2,
+     10.6
+    ],
+    "box": [
+     700,
+     50,
+     1250,
+     470
+    ],
+    "lines": [
+     {
+      "text": "go → {went}",
+      "size": 52,
+      "color": "white",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "text": "have → {had}",
+      "size": 52,
+      "color": "white",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "text": "play → play{ed}",
+      "size": 52,
+      "color": "white",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "rule": true
+     },
+     {
+      "text": "过去：动词{变样子}，问句用 {did}",
+      "size": 36,
+      "color": "white",
+      "gap": 22,
+      "bold": true
+     }
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "note": "过去·一",
+   "bg": {
+    "src": "ai/E2.mp4",
+    "at": 10.3
+   },
+   "title": "过去 · 动词变样子，问句用 did",
+   "rows": [
+    {
+     "en": "What {did} you do today?",
+     "zh": "你今天干了啥？",
+     "wav": "q4.wav",
+     "times": 2
+    },
+    {
+     "en": "I {went} to work.",
+     "zh": "我上班了。",
+     "wav": "a_went.wav",
+     "times": 1
+    },
+    {
+     "en": "I {had} hot pot.",
+     "zh": "我吃了火锅。",
+     "wav": "a_hotpot.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "note": "过去·二",
+   "bg": {
+    "src": "ai/E2.mp4",
+    "at": 10.3
+   },
+   "title": "过去 · 再说三句",
+   "rows": [
+    {
+     "en": "I play{ed} games.",
+     "zh": "我打游戏了。",
+     "wav": "a_played.wav",
+     "times": 1
+    },
+    {
+     "en": "I stay{ed} home.",
+     "zh": "我在家待着。",
+     "wav": "a_stayed.wav",
+     "times": 1
+    },
+    {
+     "en": "I {went} shopping.",
+     "zh": "我逛街了。",
+     "wav": "a_shopping.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片6 做了没有",
+   "src": "ai/F.mp4",
+   "range": [
+    0,
+    11.6
+   ],
+   "room": [
+    2.1,
+    2.9
+   ],
+   "en": [
+    {
+     "wav": "q5_scene.wav",
+     "at": 0.4,
+     "text": "Have you eaten?",
+     "pos": [
+      420,
+      36
+     ],
+     "gain": 9,
+     "linger": 0.9
+    }
+   ],
+   "subs": [
+    {
+     "t": [
+      3.2,
+      5.7
+     ],
+     "text": "没有没有，我没偷吃！"
+    },
+    {
+     "t": [
+      8.35,
+      11.15
+     ],
+     "text": "人家是问候你，吃了没有！"
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片8 补讲·下",
+   "src": "ai/G_fix.mp4",
+   "range": [
+    7.6,
+    14.9
+   ],
+   "subs": [
+    {
+     "t": [
+      7.95,
+      14.45
+     ],
+     "text": "呐，问做了没有呢，动词前面要请个帮手。"
+    }
+   ],
+   "panel": {
+    "t": [
+     10.9,
+     14.9
+    ],
+    "box": [
+     700,
+     50,
+     1250,
+     470
+    ],
+    "lines": [
+     {
+      "text": "{have} + eaten",
+      "size": 60,
+      "color": "white",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "text": "帮手 = have",
+      "size": 38,
+      "color": "soft",
+      "gap": 14,
+      "bold": true
+     },
+     {
+      "rule": true
+     },
+     {
+      "text": "做了没有：{have} + 动词第三个样子",
+      "size": 34,
+      "color": "white",
+      "gap": 22,
+      "bold": true
+     }
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "note": "做了没有·一",
+   "bg": {
+    "src": "ai/G_fix.mp4",
+    "at": 14.6
+   },
+   "title": "做了没有 · have + 动词第三个样子",
+   "rows": [
+    {
+     "en": "{Have} you eat{en}?",
+     "zh": "你吃了吗？",
+     "wav": "q5.wav",
+     "times": 2
+    },
+    {
+     "en": "Yes, I {have}.",
+     "zh": "吃了。",
+     "wav": "a_yes.wav",
+     "times": 1
+    },
+    {
+     "en": "Not yet.",
+     "zh": "还没。",
+     "wav": "a_notyet.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "note": "做了没有·二",
+   "bg": {
+    "src": "ai/G_fix.mp4",
+    "at": 14.6
+   },
+   "title": "做了没有 · 再说两句",
+   "rows": [
+    {
+     "en": "I {have} had lunch.",
+     "zh": "我吃过午饭了。",
+     "wav": "a_hadlunch.wav",
+     "times": 1
+    },
+    {
+     "en": "{Have} you {been} to China?",
+     "zh": "你来过中国吗？",
+     "wav": "q5b.wav",
+     "times": 1
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片7a 四样分清楚",
+   "src": "ai/H.mp4",
+   "range": [
+    0,
+    9.2
+   ],
+   "subs": [
+    {
+     "t": [
+      0.3,
+      8.65
+     ],
+     "text": "平时、现在、过去、做了没有，四样分清楚。"
+    }
+   ],
+   "panel": [
+    {
+     "t": [
+      0.4,
+      1.5
+     ],
+     "box": [
+      820,
+      56,
+      1250,
+      220
+     ],
+     "lines": [
+      {
+       "text": "平时",
+       "size": 46,
+       "color": "white",
+       "gap": 22,
+       "bold": true
+      }
+     ]
+    },
+    {
+     "t": [
+      1.5,
+      2.75
+     ],
+     "box": [
+      820,
+      56,
+      1250,
+      298
+     ],
+     "lines": [
+      {
+       "text": "平时",
+       "size": 46,
+       "color": "white",
+       "gap": 22,
+       "bold": true
+      },
+      {
+       "text": "现在正在",
+       "size": 46,
+       "color": "yellow",
+       "gap": 22,
+       "bold": true
+      }
+     ]
+    },
+    {
+     "t": [
+      2.75,
+      4.0
+     ],
+     "box": [
+      820,
+      56,
+      1250,
+      376
+     ],
+     "lines": [
+      {
+       "text": "平时",
+       "size": 46,
+       "color": "white",
+       "gap": 22,
+       "bold": true
+      },
+      {
+       "text": "现在正在",
+       "size": 46,
+       "color": "yellow",
+       "gap": 22,
+       "bold": true
+      },
+      {
+       "text": "过去",
+       "size": 46,
+       "color": "red",
+       "gap": 22,
+       "bold": true
+      }
+     ]
+    },
+    {
+     "t": [
+      4.0,
+      9.2
+     ],
+     "box": [
+      820,
+      56,
+      1250,
+      454
+     ],
+     "lines": [
+      {
+       "text": "平时",
+       "size": 46,
+       "color": "white",
+       "gap": 22,
+       "bold": true
+      },
+      {
+       "text": "现在正在",
+       "size": 46,
+       "color": "yellow",
+       "gap": 22,
+       "bold": true
+      },
+      {
+       "text": "过去",
+       "size": 46,
+       "color": "red",
+       "gap": 22,
+       "bold": true
+      },
+      {
+       "text": "做了没有",
+       "size": 46,
+       "color": "red",
+       "gap": 22,
+       "bold": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "note": "对照表",
+   "bg": {
+    "src": "ai/H.mp4",
+    "at": 8.9
+   },
+   "title": "一个 eat，四种说法",
+   "rows": [
+    {
+     "en": "I eat noodles.",
+     "zh": "我平时吃面。",
+     "wav": "e1.wav",
+     "times": 1,
+     "label": "平时"
+    },
+    {
+     "en": "I'm eat[ing] noodles.",
+     "zh": "我正在吃面。",
+     "wav": "e2.wav",
+     "times": 1,
+     "label": "现在正在"
+    },
+    {
+     "en": "I {ate} noodles.",
+     "zh": "我吃了面。",
+     "wav": "e3.wav",
+     "times": 1,
+     "label": "过去"
+    },
+    {
+     "en": "I {have} eat{en}.",
+     "zh": "我吃过了。",
+     "wav": "e4.wav",
+     "times": 1,
+     "label": "做了没有"
+    }
+   ]
+  },
+  {
+   "type": "clip",
+   "note": "片7b 收尾",
+   "src": "ai/I.mp4",
+   "range": [
+    0,
+    12.8
+   ],
+   "subs": [
+    {
+     "t": [
+      2.9,
+      5.8
+     ],
+     "text": "发生这种事，大家都不想的。"
+    },
+    {
+     "t": [
+      9.2,
+      12.05
+     ],
+     "text": "客官，你饿不饿？我煮碗面给你吃。"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "note": "片尾对话",
+   "bg": {
+    "src": "ai/I.mp4",
+    "at": 12.5
+   },
+   "title": "连起来说一遍",
+   "foot": "下一节：点菜",
+   "en_size": 46,
+   "rows": [
+    {
+     "en": "How are you doing?  —  Pretty good. And you?",
+     "zh": "",
+     "wav": [
+      "q1.wav",
+      "a_pretty.wav",
+      "a_andyou.wav"
+     ],
+     "gap": 1.4
+    },
+    {
+     "en": "What do you do?  —  I sell bearings.",
+     "zh": "",
+     "wav": [
+      "q2.wav",
+      "a_sell.wav"
+     ],
+     "gap": 1.4
+    },
+    {
+     "en": "What are you doing?  —  I'm working.",
+     "zh": "",
+     "wav": [
+      "q3.wav",
+      "a_working.wav"
+     ],
+     "gap": 1.4
+    },
+    {
+     "en": "What did you do today?  —  I went to work.",
+     "zh": "",
+     "wav": [
+      "q4.wav",
+      "a_went.wav"
+     ],
+     "gap": 1.4
+    },
+    {
+     "en": "Have you eaten?  —  Not yet.",
+     "zh": "",
+     "wav": [
+      "q5.wav",
+      "a_notyet.wav"
+     ],
+     "gap": 1.4
+    }
+   ]
+  }
+ ]
+}

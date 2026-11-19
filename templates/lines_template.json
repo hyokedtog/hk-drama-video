@@ -1,0 +1,9 @@
+[
+ ["q1","How are you doing?"],["q1b","How are you?"],["q1c","How's it going?"],
+ ["a_pretty","Pretty good."],["a_notbad","Not bad."],["a_busy","I'm busy."],["a_tired","I'm tired."],["a_andyou","And you?"],
+ ["q2","What do you do?"],["a_sell","I sell bearings."],["a_factory","I work in a factory."],["a_sales","I work in sales."],
+ ["q3","What are you doing?"],["a_working","I'm working."],["a_lunch","I'm having lunch."],["a_games","I'm playing games."],
+ ["q4","What did you do today?"],["a_went","I went to work."],["a_hotpot","I had hot pot."],["a_played","I played games."],["a_stayed","I stayed home."],["a_shopping","I went shopping."],
+ ["q5","Have you eaten?"],["a_yes","Yes, I have."],["a_notyet","Not yet."],["a_hadlunch","I have had lunch."],["q5b","Have you been to China?"],
+ ["e1","I eat noodles."],["e2","I'm eating noodles."],["e3","I ate noodles."],["e4","I have eaten."]
+]
